@@ -1,0 +1,20 @@
+[package]
+name = "board-generator"
+version = "0.1.0"
+authors = ["Wenis77 <froggyboy2011@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+
+[dependencies]
+rand = "0.8"
+time = "*"
+futures = "0.3"
+tokio = { version = "*", features = ["full"] }
+async-recursion = "0.3.2"
+serde_json = "1.0"
+serde = {version = "1.0", features = ["derive"]}
+rusqlite = { version = "*", features = ["bundled"]}
+itertools = "*"
